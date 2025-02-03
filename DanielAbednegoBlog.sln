@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF9324E8-B93D-44B5-913C-8AB0C70857C1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA822EE0-4F7A-467A-AB5E-63111B522EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanielAbednegoBlog", "src\DanielAbednegoBlog\DanielAbednegoBlog.csproj", "{DDB4780E-2CBD-4CC7-8DDE-B8BD7FD706D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{120D7F96-C8B6-44A7-89C8-6A0B5BBD5DA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelFormatter", "src\Features\ExcelFormatter\ExcelFormatter.csproj", "{F9F754D6-9E27-468A-A803-E51EB2CEDF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechToText", "src\Features\SpeechToText\SpeechToText.csproj", "{83C0AA79-8B62-4FEC-BA24-9635D34E9408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanielAbednegoBlog.Tests", "src\DanielAbednegoBlog.Tests\DanielAbednegoBlog.Tests.csproj", "{15A5FEB5-1E1E-4D88-8C59-DCB429158DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanielAbednegoBlog.Infrastructure", "src\DanielAbednegoBlog.Infrastructure\DanielAbednegoBlog.Infrastructure.csproj", "{81EF2368-581A-4D58-AD36-E554147FFDE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDB4780E-2CBD-4CC7-8DDE-B8BD7FD706D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB4780E-2CBD-4CC7-8DDE-B8BD7FD706D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB4780E-2CBD-4CC7-8DDE-B8BD7FD706D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB4780E-2CBD-4CC7-8DDE-B8BD7FD706D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F754D6-9E27-468A-A803-E51EB2CEDF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F754D6-9E27-468A-A803-E51EB2CEDF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F754D6-9E27-468A-A803-E51EB2CEDF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F754D6-9E27-468A-A803-E51EB2CEDF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C0AA79-8B62-4FEC-BA24-9635D34E9408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C0AA79-8B62-4FEC-BA24-9635D34E9408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C0AA79-8B62-4FEC-BA24-9635D34E9408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C0AA79-8B62-4FEC-BA24-9635D34E9408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A5FEB5-1E1E-4D88-8C59-DCB429158DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A5FEB5-1E1E-4D88-8C59-DCB429158DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A5FEB5-1E1E-4D88-8C59-DCB429158DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A5FEB5-1E1E-4D88-8C59-DCB429158DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EF2368-581A-4D58-AD36-E554147FFDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EF2368-581A-4D58-AD36-E554147FFDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EF2368-581A-4D58-AD36-E554147FFDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EF2368-581A-4D58-AD36-E554147FFDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDB4780E-2CBD-4CC7-8DDE-B8BD7FD706D3} = {EA822EE0-4F7A-467A-AB5E-63111B522EC1}
+		{120D7F96-C8B6-44A7-89C8-6A0B5BBD5DA8} = {EA822EE0-4F7A-467A-AB5E-63111B522EC1}
+		{F9F754D6-9E27-468A-A803-E51EB2CEDF94} = {120D7F96-C8B6-44A7-89C8-6A0B5BBD5DA8}
+		{83C0AA79-8B62-4FEC-BA24-9635D34E9408} = {120D7F96-C8B6-44A7-89C8-6A0B5BBD5DA8}
+		{15A5FEB5-1E1E-4D88-8C59-DCB429158DC3} = {EA822EE0-4F7A-467A-AB5E-63111B522EC1}
+		{81EF2368-581A-4D58-AD36-E554147FFDE7} = {EA822EE0-4F7A-467A-AB5E-63111B522EC1}
+	EndGlobalSection
+EndGlobal
